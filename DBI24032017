@@ -67,3 +67,78 @@ Tabela CR - Contas a receber
 
 CP - Contas Pendentes
 MF - Movimentação Finaceira
+
+
+Funcionalidade
+1. gerenciamento de dicionario de dados
+2. gerenciamento de armazenamento de dados
+3. transformação e apresentação de dados
+4. gernciamento de segurança
+5. controle de acesso multi usuario
+6. backup recuperação
+7. gerenciamento de integridade dos dados
+8. linguagem de acesso a DB e interface de prog a aplicação
+9. interface de comunicação com o DB
+
+principais SGDB's
+pagos
+  SQLServer 
+    Caracteristicas
+      Performase critica
+        construção de oltp em memoria
+        escalabilidade e segurança
+        alta disponibilidade e velocidade
+      rapida visualização de qualquer dados
+        robusto e alta performase empresarial
+        integração com office
+        aplicatiavos moveis
+        ferramentas de BI complexas
+      plataforma para nuvens hibridas
+        soluçaõ de backup e restaução
+        facilidade de migração
+        ferramento completa
+  ORACLE
+    caracteristicas
+      gerenciamento em nuvem 
+        consolidado para trab em nuvem
+        gernciamento uninficado
+        
+      performase em nuvem
+      
+      engenharia de inovação de banco
+gratuitos
+  POSTGRESQL
+    codigo aberto
+    confiabilidade
+    integração
+    funcionalidade para desenv
+    
+  FIREBIRD
+    codigo aberto
+    facilidade
+    comunidade
+  MYSQL
+    codigo abertp
+    facil usar
+    em franca expanção
+    
+  SQLITE
+    codigo aberto
+    facil uso
+    
+    
+    
+    
+  exercico de fixação
+  
+  sabendo das funcionalidades de SGBD pesquisar
+  
+  1 Como o PostGresql armazena o dicionario de dados?
+  2 Como o Oracle controla o acesso a usuarios/
+  3 as transaçes (comandos) podem ser simutaneos, como mysql trata das transaçoes?
+  4 qual a dif entre postgresql para o mysql ao fazer bakcup/
+  5 o oracle permite criar interface para usuario de que forma?
+  6 qual a dif de segurança do sqlite para mysql?
+    
+    
+    
