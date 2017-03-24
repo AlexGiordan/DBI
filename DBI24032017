@@ -37,9 +37,16 @@ exercicio de fixação
 * De onde vem a para onde vai essa informação?
 >>> vem de uma coleta de informações da telemetria do computador de bordo do veiculo e é enviado para a transportadora, 
 onde a mesma consome os dados.
+* Que tipo de banco de dados e por que?
+>>> Sera para multiusuarios e corporativo.
 * Que vantagem estou agregando ao utilizar SGBD?
 >>> Estou agregando informação que pode me ajudar a identificar em qual momento estou perdendo desempenho e necessito 
 fazer manutenção no veiculo.
+
+
+
+
+
 * Relatorio de pendencia financeiro para cliente
 
 Tab Cliente
