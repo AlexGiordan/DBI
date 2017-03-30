@@ -1,1 +1,36 @@
 
+Trabalho 
+
+Empresa de alimentos possui 5 unidades, sendo uma matriz e outras 4 filiais em distintas cidades. Produs alimentos derivados de frangos e suinos.
+Sua administração fica centralizada na matriz.
+
+Analisar os possiveis sistemas (macro sistemas e subsistemas com suas interrelações). Nomear e descrever cada subsistema.
+>>> Sistema Macro da Empresa (ERP de gestão empresarial).
+Tem por objetivo integrar todos os setores da empresa bem como todas as plantas da empresa, de maneira que toda a companhia posso fazer CRUD de informação e permitir real tomada de decisão.
+
+>>> Sub-Sistemas
+ Sistema de Controladoria: Tem o objetivo de controlar todo o inventario de insumos e produtos produzido pela filial e/ou empresa como um geral, cabe a esse sub-sistema contralar entradas e saidas de material fisico com o vritual ou contabil como preferir.
+ Sistema de PCP Frangos: Tem o objetivo de controlar toda a cadeia de produção derivados de frango, podendo gerenciar, linha de produtos, tempo de produção, aproveitamento de insumos, quebras de insumos, preços de custos, calendario de produção e etc.
+ Sistema de PCP Suinos: Assim como o item anterior tem o mesmo objetivo porem destinado a derivados de Suinos.
+ Sistema de Almoxerifado Itens de Consumo: Visa controlar todo o tipo de material utilizado envolto na produção ou consumidos pelo Administrativo, por exemplo; material de expediente, material de limpeza, epi's, peças para manutenção.
+ Sistema de RH: Tem como objetivo controlar o processo de folha de ponto, calcular os proventos e descontos de cada colaborados ao final do periodo, tambem cabe gerenciar cronograma de ferias. 
+ 
+Levantar quais funcionalidades preciso ter em um SGDB para atender aos sistemas. Descreva cada funcionalidade e sua importancia para a empresa.
+ Vou necessitar, backup/restauração. (Controle de segurança).
+ Performasse, vai ter muita troca de informação e trafego de dados.
+ Controle de acesso de usuario. Como existem matris mais 4 filial e podemos ter n usuarios é necessario ter um bom controle de usuarios.
+ Velocidade de consulta de dados. Imagine a seguinte informação, ao final do mês é rodado o programa de calculo de folha de pagamento esse não executado filial a filial ou coloborador por colaborador, quando é executado é um evento disparado pela gestão de RH na matris e processo todas as folhas em um evento apenas.
+ 
+Qual SGBD suporta os distintos sistemas? Posso utilizar mais de um? Como Sera?
+ ORACLE; Poderia sim trabalhar com outros SGBD, porem vejo que para o ERP deveria ser ORACLE, já processos menores ate poderia ser SGBD's gratuidos porem deveram integra essa informação com o ORACLE.
+
+O sistema de informação computacional precisa estar em rede em sistemas?
+ Nenhum e todos.
+ Nenhum porque poderia ter uma replica do banco localmente e de x tempo esse banco é atualizado. (é inviavel mas possivel).
+ Todos, pois em tempo real a informação estaria lançada e disponivel. 
+ 
+Qual sub-sistema pode trabalhar sem estar na internet? Qual sistema precisa estar na internet? Existe outra forma de substituir a internet?
+ Depende, o ideal é que como se trata de uma empresa com multi plantas que tudo fique em rede externa com a devida segurança, mas poderia deixar todos fora da internet, contudo em determinado momento essas infromações tem que ser integradas, seja por meio fisico ou rede.
+ 
+Posso chegar a ter sistemas mono usuario? Quais e como funcionaria na função da empresa?
+ Vejo que não, se não qual o sentido de uma empresa ter um sistema.
